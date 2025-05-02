@@ -30,7 +30,8 @@
     margin: 0 auto;
     padding: 0px;
     min-width: 320px;
-    background-color: var(--backgroundColor);
+    /* background-color: var(--backgroundColor); */
+    background-color: #1e1f23;
   }
   h1,
   h2,
