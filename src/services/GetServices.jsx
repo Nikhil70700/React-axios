@@ -7,5 +7,5 @@ baseURL:
 
 //creating a get request function
 export const getMovie=()=>{
-    return api.get("?i=tt3896198&apikey=4c59a226&s=titanic&page=1");
+    return api.get("?i=tt3896198&apikey=4c59a226&s=titanic&page=4");
 }

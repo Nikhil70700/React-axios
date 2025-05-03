@@ -1,4 +1,4 @@
-import axios from 'axios';
+// import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import Card from '../components/UI/Card';
 import { getMovie } from '../services/GetServices';
@@ -13,6 +13,10 @@ const Movie = () => {
             setData(res.data.Search);
         } catch (error) {
             console.log(error);
+            console.log(`Error Message ${error.message}`)
+            console.log(`Error Status ${error.response.status}`)
+            console.log(`Error Data : ${error.response.data}`)
+            
         }
     }
     useEffect(() => {
