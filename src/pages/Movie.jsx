@@ -8,6 +8,8 @@ const Movie = () => {
     // const API = "https://www.omdbapi.com/?i=tt3896198&apikey=4c59a226&s=titanic&page=1";
     const getMovieData = async () => {
         try {
+            // const res=await axios.get(API); 
+            // * instead of this we can write it like this=>
             const res = await getMovie();
             console.log(res.data.Search);
             setData(res.data.Search);
